@@ -29,7 +29,7 @@ const swaggerOptions = {
         description: 'Servidor de desarrollo o producción'
       },
       {
-        url: 'https://p3-31899312.onrender.com',
+        url: 'https://p3-32167268.onrender.com',
         description: 'Servidor en Render'
       },
     ],

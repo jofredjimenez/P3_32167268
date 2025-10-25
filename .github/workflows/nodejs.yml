@@ -38,8 +38,8 @@ jobs:
     - name: Deploy to Render
       if: success() 
       env:
-        RENDER_API_KEY: ${{ secrets.MYRENDER }} 
-        RENDER_SERVICE_ID: somoslosmejores
+        RENDER_API_KEY: ${{ secrets.JOFRED }} 
+        RENDER_SERVICE_ID: srv-d3uk33vdiees73ebfv10
       run: |
         curl -X POST \
           -H "Authorization: Bearer $RENDER_API_KEY" \
